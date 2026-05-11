@@ -2,10 +2,9 @@
 
 ## Projektbeschreibung
 
-Dieses Projekt dokumentiert den Aufbau eines einfachen **SIEM-Labs mit Wazuh**.  
-Die Umgebung besteht aus einem **Wazuh Server** und einem angebundenen **Wazuh Agent/Client**.
+Dieses Projekt dokumentiert den Aufbau eines einfachen **SIEM-Labs mit Wazuh**.
 
-Ziel war es, sicherheitsrelevante Ereignisse eines Linux-Clients zentral zu erfassen, an den Wazuh Server zu senden und im Wazuh Dashboard auszuwerten.
+Die Umgebung besteht aus einem **Wazuh Server** und einem angebundenen **Wazuh Agent/Client**. Ziel war es, sicherheitsrelevante Ereignisse eines Linux-Clients zentral zu erfassen, an den Wazuh Server zu senden und im Wazuh Dashboard auszuwerten.
 
 ---
 
@@ -41,8 +40,7 @@ Windows Host
     └── IP: 192.168.56.102
 ```
 
-Der Wazuh Agent auf dem Client sammelt sicherheitsrelevante Logs und sendet diese an den Wazuh Server.  
-Die Events werden dort verarbeitet und im Dashboard sichtbar gemacht.
+Der Wazuh Agent auf dem Client sammelt sicherheitsrelevante Logs und sendet diese an den Wazuh Server. Die Events werden dort verarbeitet und im Dashboard sichtbar gemacht.
 
 ---
 
@@ -174,7 +172,7 @@ Erreichte Punkte:
 
 ---
 
-## Lernziele
+## Gelernte Inhalte
 
 Durch dieses Projekt wurden folgende Grundlagen praktisch geübt:
 
@@ -189,9 +187,20 @@ Durch dieses Projekt wurden folgende Grundlagen praktisch geübt:
 
 ---
 
+## Skills demonstrated
+
+- SIEM setup and basic configuration
+- Linux log analysis
+- Wazuh agent management
+- Security event investigation
+- MITRE ATT&CK mapping
+- Basic SOC analyst workflow
+- Documentation of a security lab
+
+---
+
 ## Hinweis
 
-Dieses Projekt ist ein lokales Lern- und Dokumentationsprojekt.  
-Es wurde in einer isolierten VirtualBox-Lab-Umgebung umgesetzt.
+Dieses Projekt ist ein lokales Lern- und Dokumentationsprojekt. Es wurde in einer isolierten VirtualBox-Lab-Umgebung umgesetzt.
 
 Es enthält keine produktiven Zugangsdaten, keine echten Unternehmensdaten und keine sensiblen Informationen.
